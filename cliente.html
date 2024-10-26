@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuestros Clientes</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f7f7f7;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 40px;
+        }
+        .clients-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        .client-card {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .client-card img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 50%;
+        }
+        .client-card h3 {
+            margin-top: 15px;
+            color: #333;
+        }
+        .client-card p {
+            font-size: 0.9rem;
+            color: #666;
+        }
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Nuestros Clientes</h1>
+    
+    <div class="clients-grid">
+        <div class="client-card">
+            <img src="15.jpeg" alt="Cliente 1">
+            <h3>Cliente 1</h3>
+            <p>"Excelente servicio, siempre superan nuestras expectativas."</p>
+        </div>
+        <div class="client-card">
+            <img src="16.jpeg" alt="Cliente 2">
+            <h3>Cliente 2</h3>
+            <p>"Un equipo altamente profesional y comprometido."</p>
+        </div>
+        <div class="client-card">
+            <img src="17.jpg" alt="Cliente 3">
+            <h3>Cliente 3</h3>
+            <p>"Nos ayudaron a crecer significativamente en nuestro sector."</p>
+        </div>
+        <div class="client-card">
+            <img src="18.avif alt="Cliente 4">
+            <h3>Cliente 4</h3>
+            <p>"La colaboración ha sido excelente desde el primer día."</p>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2024 thiler pino. Todos los derechos reservados.</p>
+</footer>
+
+</body>
+</html>

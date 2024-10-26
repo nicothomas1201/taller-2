@@ -1,0 +1,7 @@
+{
+    "crear un media Querie":{
+    "prefix":"mq",
+    "body": "@media (min-width: $1) { \n $2\n}"
+
+    }
+}
